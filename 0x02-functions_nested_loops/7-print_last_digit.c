@@ -5,6 +5,7 @@
  * @j: function parameter
  * Return: i
  */
+
 int print_last_digit(int j)
 {
 	int i;
