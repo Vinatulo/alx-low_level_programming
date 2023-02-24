@@ -8,12 +8,12 @@ int main(void)
 {
 	long prime = 612852475143, div = 2;
 
-	while (div < (prime / 2))
+	while (div <= (prime / 2))
 	{
 		prime /= 2;
 		continue;
 	}
-	for (div = 3; div < (prime / 2); div += 2)
+	for (div = 3; div <= (prime / 2); div += 2)
 	{
 		if ((prime % div) == 0)
 		{
