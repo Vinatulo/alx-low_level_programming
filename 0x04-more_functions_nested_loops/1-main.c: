@@ -1,0 +1,5 @@
+n.c:14:24: error: implicit declaration of function ‘_isdigit’ [-Werror=implicit-function-declaration]
+   14 |  printf("%c: %d\n", c, _isdigit(c));
+      |                        ^~~~~~~~
+cc1: all warnings being treated as errors
+
