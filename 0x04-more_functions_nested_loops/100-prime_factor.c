@@ -7,20 +7,17 @@
 
 int main(void)
 {
-	long prime = 612852475143, div = 2;
+	long x, maxf;
+	long number = 612852475143;
+	double square = sqrt(number);
 
-	while (div <= (prime / 2))
+	for (x = 1; x <= square; x++)
 	{
-		prime /= 2;
-		continue;
-	}
-	for (div = 3; div <= (prime / 2); div += 2)
-	{
-		if ((prime % div) == 0)
+		if ((number % x) == 0)
 		{
-			prime /= div;
+			maxf = number / x;
 		}
 	}
-	printf("%ld\n", prime);
+	printf("%ldn", maxf);
 	return (0);
 }
