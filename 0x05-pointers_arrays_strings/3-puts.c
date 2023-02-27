@@ -5,14 +5,9 @@
  * @str: string to print
  * Return: non
  */
-int _putchar(char c)
-{
-	return putchar(c);
-}
-
 void _puts(char *str)
 {
-	while (*str)
+	while (*str != '\0')
 	{
 		_putchar(*str);
 		str++;
