@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char s[] = "Expect the best. Prepare for the worst.\n"
+	char s[] = "Expect the best. Prepare for the worst.\t"
 		"Capitalize on what comes.\n";
 	char *p;
 
